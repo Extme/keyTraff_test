@@ -17,7 +17,6 @@ window.onload = function () {
                          $('#table_info').css('visibility', 'hidden');
                      }
                      else {
-                         $('#table_order').css('visibility', 'visible');
                          for (var i = 0; i<jsonResponse.length; i++){
                                $('#id').append("<tr><th>"+jsonResponse[i].id+"</th></tr>");
                                $('#name').append("<tr><th>"+jsonResponse[i].name+"</th></tr>");
