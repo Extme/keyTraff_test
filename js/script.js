@@ -48,7 +48,6 @@ window.onload = function () {
                          $('#table_product').css('visibility', 'hidden');
                      }
                      else {
-                         //$('#table_product').css('visibility', 'visible');
                          for (var i = 0; i<jsonResponse.length; i++){
                                $('#name_1').append("<tr><th>"+jsonResponse[i].name+"</th></tr>");
                                $('#price_1').append("<tr><th>"+jsonResponse[i].price+"</th></tr>");
